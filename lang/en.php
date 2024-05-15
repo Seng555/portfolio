@@ -32,6 +32,7 @@ $lang = array(
     <p>Freelance</p>',
     'Web_Apps' => '<h2>Web & Apps Development</h2><p>Freelance</p>',
     'Executive_of_Developer'=> '<h2>Full stack developer</h2><p>Payrich-Paymart Export-Import Company Limited</p>',
+    'Executive_of_Developer2024'=> '<h2>Full stack developer</h2><p>Zion Company Limited</p>',
     'My_Specializations' => ' My<span> Specializations</span>',
     'Website_PC_Mac' => '<h2>Website, PC, Mac, Linux, IOS, Android Apps
                     development</h2>

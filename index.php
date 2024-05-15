@@ -658,9 +658,9 @@ include_once('lang/' . $language . '.php');
             <img src="wp-content/themes/drake/assets/images/logo.png" alt="Logo">
             <span class="designation">
             <?php if($language == "la"){  ?>
-                <a href="JavaScript:;" onclick="changeLanguage('en')"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_the_United_Kingdom.png/1200px-Flag_of_the_United_Kingdom.png?20080216232030" alt="Girl in a jacket" width="20"></a>  
+                <a href="JavaScript:;" onclick="changeLanguage('en')"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_the_United_Kingdom.png/1200px-Flag_of_the_United_Kingdom.png?20080216232030" alt="In English" width="20"></a>  
            <?php }else{ ?>
-                <a href="JavaScript:;" onclick="changeLanguage('la')"><img src="https://seekflag.com/app/uploads/2021/12/Flag-of-Laos-01-2.svg" alt="Girl in a jacket" width="20"></a>  
+                <a href="JavaScript:;" onclick="changeLanguage('la')"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Laos.svg/2560px-Flag_of_Laos.svg.png" alt="In Lao" width="20"></a>  
             <?php } ?>
             </span>
             <!--<span class="designation">Web &amp; Apps Developer</span>-->
@@ -850,13 +850,18 @@ include_once('lang/' . $language . '.php');
                                                             </div>
                                                             <div class="item scroll-animation"
                                                                 data-animation="fade_from_right">
-                                                                <span class="date">2019 - 2021</span>
+                                                                <span class="date">2019 - 2020</span>
                                                                 <?php echo $lang["Web_Apps"] ?>
                                                             </div>
                                                             <div class="item scroll-animation"
                                                                 data-animation="fade_from_right">
-                                                                <span class="date">2021 - Present</span>
+                                                                <span class="date">2020 - 2023</span>
                                                                 <?php echo $lang["Executive_of_Developer"] ?>
+                                                            </div>
+                                                            <div class="item scroll-animation"
+                                                                data-animation="fade_from_right">
+                                                                <span class="date">2023 - present</span>
+                                                                <?php echo $lang["Executive_of_Developer2024"] ?>
                                                             </div>
                                                         </div>
 
@@ -987,6 +992,20 @@ include_once('lang/' . $language . '.php');
                                                             <div class="col-md-3 scroll-animation"
                                                                 data-animation="fade_from_bottom">
                                                                 <div class="skill">
+                                                                    <a href="https://react.dev/" target="_blank">
+                                                                        <div class="skill-inner">
+                                                                            <img decoding="async"
+                                                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1200px-React_Logo_SVG.svg.png"
+                                                                                alt="vuejs" width="50">
+                                                                            <h1 class="percent"></h1>
+                                                                        </div>
+                                                                        <p class="name">React JS</p>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3 scroll-animation"
+                                                                data-animation="fade_from_bottom">
+                                                                <div class="skill">
                                                                     <a href="https://vuejs.org/" target="_blank">
                                                                         <div class="skill-inner">
                                                                             <img decoding="async"
@@ -1058,10 +1077,24 @@ include_once('lang/' . $language . '.php');
                                                             <div class="col-md-3 scroll-animation"
                                                                 data-animation="fade_from_bottom">
                                                                 <div class="skill">
-                                                                    <a href="https://v4.mui.com/" target="_blank">
+                                                                    <a href="https://www.electronjs.org/" target="_blank">
                                                                         <div class="skill-inner">
                                                                             <img decoding="async"
-                                                                                src="https://v4.mui.com/static/logo_raw.svg"
+                                                                                src="https://miro.medium.com/v2/resize:fit:1400/1*vp8eVvBss-AVgPV_mtf4HQ.png"
+                                                                                alt="Electron" width="50">
+                                                                            <h1 class="percent"></h1>
+                                                                        </div>
+                                                                        <p class="name">Electron</p>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3 scroll-animation"
+                                                                data-animation="fade_from_bottom">
+                                                                <div class="skill">
+                                                                    <a href="https://mui.com/" target="_blank">
+                                                                        <div class="skill-inner">
+                                                                            <img decoding="async"
+                                                                                src="https://v4.mui.com/static/logo.png"
                                                                                 alt="MATERIAL-UI" width="50">
                                                                             <h1 class="percent"></h1>
                                                                         </div>
@@ -1287,6 +1320,21 @@ include_once('lang/' . $language . '.php');
                                                             <div class="col-md-3 scroll-animation"
                                                                 data-animation="fade_from_bottom">
                                                                 <div class="skill">
+                                                                    <a href="https://www.docker.com/"
+                                                                        target="_blank">
+                                                                        <div class="skill-inner">
+                                                                            <img decoding="async"
+                                                                                src="https://www.docker.com/wp-content/uploads/2023/05/symbol_blue-docker-logo.png"
+                                                                                alt="docker" width="50">
+                                                                            <h1 class="percent"></h1>
+                                                                        </div>
+                                                                        <p class="name">Docker</p>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3 scroll-animation"
+                                                                data-animation="fade_from_bottom">
+                                                                <div class="skill">
                                                                     <a href="https://www.nginx.com/"
                                                                         target="_blank">
                                                                         <div class="skill-inner">
@@ -1349,7 +1397,7 @@ include_once('lang/' . $language . '.php');
                                                                         target="_blank">
                                                                         <div class="skill-inner">
                                                                             <img decoding="async"
-                                                                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg"
+                                                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1051px-Adobe_Photoshop_CC_icon.svg.png"
                                                                                 alt="photoshop" width="50">
                                                                             <h1 class="percent"></h1>
                                                                         </div>
@@ -1394,6 +1442,35 @@ include_once('lang/' . $language . '.php');
                                                         </div>
 
                                                         <div class="row portfolio-items">
+                                                        <div class="col-md-12 scroll-animation"
+                                                                data-animation="fade_from_bottom">
+                                                                <div class="portfolio-item portfolio-full">
+                                                                    <div class="portfolio-item-inner">
+                                                                        <a href="https://sgp-cstore-pub.maxhub.com/maxhub_global_public/upload/lpjlp6ix/MTR-banner-pc-v2.jpg"
+                                                                            data-lightbox="example-1">
+                                                                            <img decoding="async"
+                                                                                src="https://sgp-cstore-pub.maxhub.com/maxhub_global_public/upload/lpjlp6ix/MTR-banner-pc-v2.jpg"
+                                                                                alt="Portfolio">
+                                                                        </a>
+
+                                                                        <ul class="portfolio-categories">
+                                                                            <li>
+                                                                                <a href="#">Electron</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#">Nodejs</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#">MongoDB</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#">React js</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <h2><a href="https://zionmaxhub.com" target="_blank">Zion group</a></h2>
+                                                                </div>
+                                                            </div>
 
                                                             <div class="col-md-12 scroll-animation"
                                                                 data-animation="fade_from_bottom">

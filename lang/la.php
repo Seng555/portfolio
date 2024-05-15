@@ -32,6 +32,7 @@ $lang = array(
     <p>ຟຣີແລນ</p>',
     'Web_Apps' => '<h2>ພັດທະນາ Web & Apps</h2><p>ຟຣີແລນ</p>',
     'Executive_of_Developer'=> '<h2>Full stack developer</h2><p>ບໍລິສັດ Payrich-Paymart ຂາອອກ-ຂາເຂົ້າ ຈໍາກັດ</p>',
+    'Executive_of_Developer2024'=> '<h2>Full stack developer</h2><p> ບໍລິສັດ Zion ຈໍາກັດ</p>',
     'My_Specializations' => 'ທັກສະ<span> ສະເພາະຂອງຂ້ອຍ</span>',
     'Website_PC_Mac' => '<h2>ພັດທະນາ Website, PC, Mac, Linux, IOS, Android Apps</h2>
                 <p>ຂ້າພະເຈົ້າໄດ້ສ້າງຜະລິດຕະພັນດິຈິຕອນທີ່ມີຄວາມຄິດທີ່ເປັນເອກະລັກ, ໂດຍນໍາໃຊ້ Flutter, vuejs, PHP, HTML ແລະອື່ນໆ</p>',
